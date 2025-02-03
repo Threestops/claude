@@ -20,6 +20,12 @@ export const models: Array<Model> = [
     apiIdentifier: 'gpt-4o',
     description: 'For complex, multi-step tasks',
   },
+  {
+    id: 'claude-3-haiku-20240307',
+    label: 'Calude 3 Haiku',
+    apiIdentifier: 'claude-3-haiku-20240307',
+    description: 'For complex, multi-step tasks',
+  },
 ] as const;
 
-export const DEFAULT_MODEL_NAME: string = 'gpt-4o-mini';
+export const DEFAULT_MODEL_NAME: string = 'claude-3-haiku-20240307';
